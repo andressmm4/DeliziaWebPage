@@ -31,6 +31,12 @@ Table OF Contents
 	General
 \*------------------------------------*/
 /* --- typography --- */
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
 body {
 	color:#969696;
 	font-size:16px;
@@ -1184,9 +1190,9 @@ textarea.input {
 }
 
 #preloader .preloader span {
-    font-size: 2em;
+    font-size: 1.7em;
     display:inline-block;
-	margin-right:  4px;
+	margin-right:  3.9px;
     color: #f36700;
 	-webkit-transform:translateY(-40px);
 	    -ms-transform:translateY(-40px);
