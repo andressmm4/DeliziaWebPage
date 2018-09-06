@@ -1184,11 +1184,10 @@ textarea.input {
 }
 
 #preloader .preloader span {
-    font-size: 3em;
+    font-size: 2em;
     display:inline-block;
-	height:45px;
-	width:45px;
-	color: #f36700;
+	margin-right:  6.5px;
+    color: #f36700;
 	-webkit-transform:translateY(-40px);
 	    -ms-transform:translateY(-40px);
 	        transform:translateY(-40px);
