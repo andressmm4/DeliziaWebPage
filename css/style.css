@@ -1184,11 +1184,11 @@ textarea.input {
 }
 
 #preloader .preloader span {
-	display:inline-block;
-	height:30px;
-	width:30px;
-	border-radius:50%;
-	border:2px solid #f36700;
+    font-size: 3em;
+    display:inline-block;
+	height:45px;
+	width:45px;
+	color: #f36700;
 	-webkit-transform:translateY(-40px);
 	    -ms-transform:translateY(-40px);
 	        transform:translateY(-40px);
@@ -1202,13 +1202,30 @@ textarea.input {
 	        animation-delay:0s;
 }
 #preloader .preloader span:nth-child(2) {
+	-webkit-animation-delay:0.1s;
+	        animation-delay:0.1s;
+}
+#preloader .preloader span:nth-child(3) {
 	-webkit-animation-delay:0.2s;
 	        animation-delay:0.2s;
 }
-#preloader .preloader span:nth-child(3) {
+#preloader .preloader span:nth-child(4) {
+	-webkit-animation-delay:0.3s;
+	        animation-delay:0.3s;
+}
+#preloader .preloader span:nth-child(5) {
 	-webkit-animation-delay:0.4s;
 	        animation-delay:0.4s;
 }
+#preloader .preloader span:nth-child(6) {
+	-webkit-animation-delay:0.5s;
+	        animation-delay:0.5s;
+}
+#preloader .preloader span:nth-child(7) {
+	-webkit-animation-delay:0.6s;
+	        animation-delay:0.6s;
+}
+
 
 @-webkit-keyframes preloder {
 	0% {

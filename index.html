@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -58,12 +58,11 @@
                 <nav id="nav">
                     <!-- nav -->
                     <ul class="main-nav nav navbar-nav">
-                        <li><a href="#home">inicio</a></li>
-                        <li><a href="#about">nosotros</a></li>
-                        <li><a href="#menu">Menu</a></li>
-                        <li><a href="#reservation">reservación</a></li>
-                        <li><a href="#galery">Galeria</a></li>
-                        <li><a href="#contact">Contacto</a></li>
+                        <li><a class="js-scroll-trigger" href="#home">inicio</a></li>
+                        <li><a class="js-scroll-trigger" href="#about">nosotros</a></li>
+                        <li><a class="js-scroll-trigger" href="#menu">Menu</a></li>
+                        <li><a class="js-scroll-trigger" href="#reservation">reservación</a></li>
+                        <li><a class="js-scroll-trigger" href="#contact">Contacto</a></li>
                     </ul>
                     <!-- /nav -->
                     <!-- button nav -->
@@ -73,7 +72,7 @@
                     <!-- button nav -->
                     <!-- contact nav -->
                     <ul class="contact-nav nav navbar-nav">
-                        <li><a href="#"><i class="fa fa-phone"></i> +502 3163-4911</a></li>
+                        <li><a href="tel:+502 31634911"><i class="fa fa-phone"></i> +502 3163-4911</a></li>
                         <li><a href="#"><i class="fa fa-map-marker"></i> 3685 Caserillo Colesterol</a></li>
                     </ul>
                     <!-- contact nav -->
@@ -108,13 +107,13 @@
             <div class="row">
                 <!-- section header -->
                 <div class="section-header text-center">
-                    <h4 class="sub-title">About Us</h4>
-                    <h2 class="title">The Risotto Restaurant</h2>
+                    <h4 class="sub-title">SOBRE NOSOTROS</h4>
+                    <h2 class="title">El Restaurante Delizia</h2>
                 </div>
                 <!-- /section header -->
                 <!-- about content -->
                 <div class="col-md-12">
-                    <h4 class="lead">Bienvenido al Restauarante Risoto. Findado en 2018, dando a conocer una de las mayores riquezas guatemaltecas la cual es su comida la cual le llamamos "Cominida Chapina" con un toque de nuetros chefs, usted deleitara la mejor comida echa en Guatemala.</h4>
+                    <h4 class="lead">Bienvenido al Restauarante <strong>Delizia</strong>. Fundado en 2018 por jóvenes apasionados por el gastronomía; los cuales su principal propósito es dar a conocer una de las mayores virtudes y riquezas guatemaltecas la cual es su comida la cual le llamamos "Comida Chapina" con un toque de nuestros chefs, usted deleitara la mejor comida echa en Guatemala.</h4>
                 </div>
                 <!-- /about content -->
                 <!-- Galery Slider -->
@@ -139,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-              </div>
+            </div>
             <!-- /row -->
         </div>
         <!-- /container -->
@@ -157,15 +156,15 @@
             <div class="row">
 
                 <div class="section-header text-center">
-                    <h4 class="sub-title">Discover</h4>
-                    <h2 class="title white-text">Our Menu</h2>
+                    <h4 class="sub-title">Descubre</h4>
+                    <h2 class="title white-text">Nuestro Menu</h2>
                 </div>
                 <!-- menu nav -->
                 <ul class="menu-nav">
-                    <li class="active"><a data-toggle="tab" href="#menu1">Dinner</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Drinks</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Launch</a></li>
-                    <li><a data-toggle="tab" href="#menu1">Dessert</a></li>
+                    <li class="active"><a data-toggle="tab" href="#menu1">Desallunos</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Almuerzos</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Cenas</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Bebidas</a></li>
                 </ul>
                 <!-- /menu nav -->
                 <!-- menu content -->
@@ -301,32 +300,41 @@
                 <div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1">
                     <form class="reserve-form row">
                         <div class="section-header text-center">
-                            <h4 class="sub-title">Reservation</h4>
-                            <h2 class="title white-text">Book Your Table</h2>
+                            <h4 class="sub-title">Reservaciones</h4>
+                            <h2 class="title white-text">Reserve su mesa</h2>
+                        </div>
+                        <div class="col-md-12">
+                            <h4 class="white-text lead">
+                                NOTA IMPORTANTE:
+                                <br>
+                                Para realizar una reservación deberá presentarse a nuestras instalaciones para proporcionarnos datos requeridos y un pago de Q100.00 para ello.<br>
+                                Pero para proporcionar un mejor servicio puede proceder a ingresar los siguientes datos y presentarse a confirmar su reservación en cuanto usted pueda . <br><br>
+                                Gracias atentamente DELIZIA
+                                <br>
+                                <br>
+                                <br>
+                            </h4>
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="name">Name:</label>
+                                <label for="name">Nombre:</label>
                                 <input class="input" type="text" placeholder="Name" id="name">
                             </div>
                             <div class="form-group">
-                                <label for="phone">Phone:</label>
-                                <input class="input" type="tel" placeholder="Phone" id="phone">
-                            </div>
-                            <div class="form-group">
-                                <label for="date">Date:</label>
+                                <label for="date">Fecha:</label>
                                 <input class="input" type="text" placeholder="MM/DD/YYYY" id="date">
                             </div>
+
                         </div>
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="email">Email:</label>
-                                <input class="input" type="email" placeholder="Email" id="email">
+                                <label for="phone">Telefono:</label>
+                                <input class="input" type="tel" placeholder="Phone" id="phone">
                             </div>
                             <div class="form-group">
-                                <label for="number">Number of Guests:</label>
+                                <label for="number">Numero de Personas:</label>
                                 <select class="input" id="number">
                                     <option>1 Person</option>
                                     <option>2 People</option>
@@ -336,13 +344,9 @@
                                     <option>6 People</option>
                                 </select>
                             </div>
-                            <div class="form-group">
-                                <label for="time">Time:</label>
-                                <input class="input" type="text" placeholder="HH:MM" id="time">
-                            </div>
                         </div>
                         <div class="col-md-12 text-center">
-                            <button class="main-button">Book Now</button>
+                            <button class="main-button">Reservar</button>
                         </div>
                     </form>
                 </div>
@@ -351,35 +355,35 @@
                 <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1">
                     <div class="opening-time row">
                         <div class="section-header text-center">
-                            <h2 class="title white-text">Opening Time</h2>
+                            <h2 class="title white-text">Horarios</h2>
                         </div>
                         <ul>
                             <li>
-                                <h4 class="day">Sunday</h4>
-                                <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                <h4 class="day">Domingo</h4>
+                                <h4 class="hours">8:00 am – 10:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Monday</h4>
-                                <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                <h4 class="day">Lunes</h4>
+                                <h4 class="hours">8:00 am – 9:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Tuesday</h4>
-                                <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                <h4 class="day">Martes</h4>
+                                <h4 class="hours">8:00 am – 9:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Wednesday</h4>
-                                <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                <h4 class="day">Miercoles</h4>
+                                <h4 class="hours">8:00 am – 9:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Thursday</h4>
-                                <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                <h4 class="day">Jueves</h4>
+                                <h4 class="hours">8:00 am – 9:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Friday</h4>
-                                <h4 class="hours">Closed</h4>
+                                <h4 class="day">Viernes</h4>
+                                <h4 class="hours">8:00 am – 9:00 pm</h4>
                             </li>
                             <li>
-                                <h4 class="day">Saturday</h4>
+                                <h4 class="day">Sabado</h4>
                                 <h4 class="hours">Closed</h4>
                             </li>
                         </ul>
@@ -392,94 +396,11 @@
         <!-- /container -->
     </div>
     <!-- /Reservation -->
-
-    <!-- Events -->
-    <div id="events" class="section">
-        <!-- container -->
-        <div class="container">
-            <!-- row -->
-            <div class="row">
-                <!-- section header -->
-                <div class="section-header text-center">
-                    <h4 class="sub-title">Special Event</h4>
-                    <h2 class="title">Upcoming Event</h2>
-                </div>
-                <!-- /section header -->
-                <!-- single event -->
-                <div class="col-md-6">
-                    <div class="event">
-                        <div class="event-img">
-                            <img src="./img/event01.jpg" alt="">
-                            <div class="event-day">
-                                <span>08<br>July</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <p><i class="fa fa-clock-o"></i> 8.00PM - 10.00PM</p>
-                            <h3><a href="#">te vero tritani iuvaret vis. Nec odio periculis adipiscing an.</a></h3>
-                            <p>Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore offendit detraxit ei cum.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /single event -->
-                <!-- single event -->
-                <div class="col-md-6">
-                    <div class="event">
-                        <div class="event-img">
-                            <img src="./img/event02.jpg" alt="">
-                            <div class="event-day">
-                                <span>08<br>July</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <p><i class="fa fa-clock-o"></i> 8.00PM - 10.00PM</p>
-                            <h3><a href="#">te vero tritani iuvaret vis. Nec odio periculis adipiscing an.</a></h3>
-                            <p>Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore offendit detraxit ei cum.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /single event -->
-                <!-- single event -->
-                <div class="col-md-6">
-                    <div class="event">
-                        <div class="event-img">
-                            <img src="./img/event02.jpg" alt="">
-                            <div class="event-day">
-                                <span>08<br>July</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <p><i class="fa fa-clock-o"></i> 8.00PM - 10.00PM</p>
-                            <h3><a href="#">te vero tritani iuvaret vis. Nec odio periculis adipiscing an.</a></h3>
-                            <p>Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore offendit detraxit ei cum.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /single event -->
-                <!-- single event -->
-                <div class="col-md-6">
-                    <div class="event">
-                        <div class="event-img">
-                            <img src="./img/event01.jpg" alt="">
-                            <div class="event-day">
-                                <span>08<br>July</span>
-                            </div>
-                        </div>
-                        <div class="event-content">
-                            <p><i class="fa fa-clock-o"></i> 8.00PM - 10.00PM</p>
-                            <h3><a href="#">te vero tritani iuvaret vis. Nec odio periculis adipiscing an.</a></h3>
-                            <p>Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore offendit detraxit ei cum.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- /single event -->
-            </div>
-            <!-- /row -->
-        </div>
-        <!-- /container -->
-    </div>
-    <!-- /Events -->
-
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <!-- Contact -->
     <div id="contact" class="section">
         <!-- container -->
@@ -488,17 +409,17 @@
             <div class="row">
                 <div class="col-md-5 col-md-offset-7">
                     <div class="section-header">
-                        <h4 class="sub-title">Contact Us</h4>
-                        <h2 class="title">Get In Touch</h2>
+                        <h4 class="sub-title">Contactanos</h4>
+                        <h2 class="title">Estas en contacto</h2>
                     </div>
                     <div class="contact-content">
-                        <p>Te sit stet labitur veritus, sea similique consetetur ut. Ne fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore offendit detraxit ei cum.</p>
-                        <h3>Tel: <a href="#">045-548-14-97</a></h3>
-                        <p>Address: 3685 Granville Lane</p>
-                        <p>Email: <a href="#">Risotto@email.com</a></p>
+                        <p>Estos los medios por los cuales puedes contactarnos.<br>¡Te estamos esperamos!</p>
+                        <h3>Tel: <a href="tel:+502 3164911">+502 3163-4911</a></h3>
+                        <p>Dirección: 3685 Caserillo Colerterol</p>
+                        <p>Email: <a href="mailto:andress.mm4@gmail.com">restaurante@delizia.com</a></p>
                         <ul class="list-inline">
                             <li>
-                                <p>Follow Us:</p>
+                                <p>Siguenos:</p>
                             </li>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -524,19 +445,17 @@
             <div class="row">
                 <!-- copyright -->
                 <div class="col-md-6">
-                    <span class="copyright">Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+                    <span class="copyright">Copyright @2018 Todos los derechosreservados | Creado por <a href="https://andresmontenegro.000webhostapp.com/" target="_blank">Andres Montenegro</a></span>
                 </div>
                 <!-- /copyright -->
-                 <!-- footer nav -->
+                <!-- footer nav -->
                 <div class="col-md-6">
                     <nav class="footer-nav">
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Menu</a>
-                        <a href="#">Reservation</a>
-                        <a href="#">Galery</a>
-                        <a href="#">Events</a>
-                        <a href="#">Contact</a>
+                        <a class="js-scroll-trigger" href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#menu">Menu</a>
+                        <a href="#reservation">Reservation</a>
+                        <a href="#contact">Contact</a>
                     </nav>
                 </div>
                 <!-- /footer nav -->
@@ -549,9 +468,13 @@
     <!-- Preloader -->
     <div id="preloader">
         <div class="preloader">
-            <span></span>
-            <span></span>
-            <span></span>
+            <span>D </span>
+            <span>E </span>
+            <span>L </span>
+            <span>I </span>
+            <span>Z </span>
+            <span>I </span>
+            <span>A</span>
         </div>
     </div>
     <!-- /Preloader -->
